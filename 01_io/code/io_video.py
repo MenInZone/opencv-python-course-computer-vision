@@ -16,7 +16,7 @@ while ret:
 
     if ret:
         cv2.imshow('frame', frame)
-        cv2.waitKey(40)
+        cv2.waitKey(40)    #for frame rate-25
 
 video.release()
 cv2.destroyAllWindows()
